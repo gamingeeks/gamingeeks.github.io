@@ -80,7 +80,7 @@
     Default Styles
 ***************************************/
 /*-- Variables --*/
-@import url("../../../../../external.html?link=https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&amp;display=swap");
+
 :root {
   --color-primary: #059DFF;
   --color-primary-rgba: rgb(5, 157, 255);
@@ -6980,6 +6980,9 @@ div.btn-default {
   .service.service__style--2:hover {
     transform: translateY(-5px);
     box-shadow: 0 0 39px rgba(255, 101, 80, 0.1); }
+  .service.box-shadow{
+    box-shadow: 0 0 39px rgba(255, 101, 80, 0.1);
+  } 
 
 .service-wrapper > [class*=col]:nth-child(2) .service.service__style--1 .icon {
   color: var(--color-secondary); }
